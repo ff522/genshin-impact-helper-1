@@ -39,14 +39,6 @@ class _Config:
     OS_ROLE_URL = 'https://api-os-takumi.mihoyo.com/auth/api/getUserAccountInfoByLToken?t={}&ltoken={}&uid={}'
     OS_INFO_URL = 'https://hk4e-api-os.mihoyo.com/event/sol/info?lang={}&act_id={}'.format(LANG, OS_ACT_ID)
     OS_SIGN_URL = 'https://hk4e-api-os.mihoyo.com/event/sol/sign?lang={}'.format(LANG)
-    # weibo
-    CONTAINER_ID = '100808fc439dedbb06ca5fd858848e521b8716'
-    SUPER_URL = 'https://m.weibo.cn/api/container/getIndex?containerid={}'.format('100803_-_page_my_follow_super')
-    YS_URL = 'https://m.weibo.cn/api/container/getIndex?containerid={}_-_feed'.format(CONTAINER_ID)
-    KA_URL = 'https://ka.sina.com.cn/innerapi/draw'
-    BOX_URL = 'https://ka.sina.com.cn/html5/mybox'
-    WB_USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E150'
-
 
 class ProductionConfig(_Config):
     LOG_LEVEL = logging.INFO
