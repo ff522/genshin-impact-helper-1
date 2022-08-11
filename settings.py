@@ -32,7 +32,7 @@ class _Config:
     USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) ' \
                  'miHoYoBBS/{}'.format(APP_VERSION)
     # HoYoLAB
-    LANG = 'en-us'
+    LANG = 'ja-jp'
     OS_ACT_ID = 'e202102251931481'
     OS_REFERER_URL = 'https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id={}'.format(OS_ACT_ID)
     OS_REWARD_URL = 'https://hk4e-api-os.mihoyo.com/event/sol/home?lang={}&act_id={}'.format(LANG, OS_ACT_ID)
